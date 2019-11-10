@@ -27,10 +27,8 @@
     "highlight.js": "^9.16.2",
     "markdown-it": "^10.0.0",
     "pug": "^2.0.4",
-    "rollup": "^1.26.4",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  },  
+    "rollup": "^1.26.4"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
