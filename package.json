@@ -1,10 +1,22 @@
 {
   "name": "svelte-markup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pug & Markdown preprocessors for svelte",
   "main": "dist/svelte-markup.js",
   "author": "Reed Jones <reedjones@reedjones.com>",
   "license": "ISC",
+  "homepage": "https://github.com/reed-jones/svelte-markup#readme",
+  "keywords": [
+    "rollup",
+    "svelte",
+    "pug",
+    "jade",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:reed-jones/svelte-markup.git"
+  },
   "peerDependencies": {
     "highlight.js": "^9.16.2",
     "markdown-it": "^10.0.0",
