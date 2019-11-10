@@ -1,6 +1,6 @@
 import markdown from 'markdown-it';
 import hljs from 'highlight.js'
-import { makeComments, stripComments } from './svelteBlocks';
+import { makeComments, stripComments } from '../utilities';
 
 export default ({ content }, options = {}) => {
   options = {
@@ -25,7 +25,7 @@ export default ({ content }, options = {}) => {
 
   const code = options.svelteBlocks
     ? stripComments(markdown(options.renderOptions).render(makeComments(content)))
-    : markdown(options).render(content)
+    : markdown(options.renderOptions).render(content)
 
   return {
     code
