@@ -1,0 +1,19 @@
+{
+  "name": "svelte-markup",
+  "version": "1.0.0",
+  "description": "Pug & Markdown preprocessors for svelte",
+  "main": "svelte-markup.js",
+  "author": "Reed Jones <reedjones@reedjones.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "highlight.js": "^9.16.2",
+    "markdown-it": "^10.0.0",
+    "svelte": "^3.0.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "highlight.js": "^9.16.2",
+    "markdown-it": "^10.0.0",
+    "pug": "^2.0.4"
+  }
+}
