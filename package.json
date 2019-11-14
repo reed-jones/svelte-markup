@@ -1,6 +1,6 @@
 {
   "name": "svelte-markup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pug & Markdown preprocessors for svelte",
   "main": "dist/svelte-markup.js",
   "author": "Reed Jones <reedjones@reedjones.com>",

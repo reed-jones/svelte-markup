@@ -7,6 +7,9 @@ Additionally, according to my minimal research* is the only svelte pug preproces
 
 \* _I could definately be wrong, but I couldn't find anything to suite my needs in the 10 minutes I looked..._
 
+> Disclaimer:...
+> **_This project is made of dumb hacks._**
+
 
 ### Install 
 ```sh
@@ -41,6 +44,15 @@ export default {
     }),
 ```
 
+### Usage with sapper
+Add the required extensions ` --ext '.md .pug .svelte'` to the package.json sapper scripts
+```json
+{
+  "dev": "sapper dev --ext '.md .pug .svelte'",
+  "build": "sapper build --legacy --ext '.md .pug .svelte'",
+  "export": "sapper export --legacy --ext '.md .pug .svelte'",
+}
+```
 
 ### Options
 options can be supplied to the pre-processors
@@ -55,7 +67,8 @@ available options are as follows:
 const options = {
   pug: {
     renderOptions: {
-      // https://pugjs.org/api/reference.html (the render() method options)
+      // see: the render() method options
+      // https://pugjs.org/api/reference.html
     }
   markdown: {
     renderOptions: {
