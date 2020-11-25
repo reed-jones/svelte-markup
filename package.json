@@ -18,13 +18,13 @@
     "url": "git@github.com:reed-jones/svelte-markup.git"
   },
   "peerDependencies": {
-    "highlight.js": "^9.16.2",
+    "highlight.js": "^10.1.2",
     "markdown-it": "^10.0.0",
     "pug": "^2.0.4",
     "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "highlight.js": "^9.16.2",
+    "highlight.js": "^10.1.2",
     "markdown-it": "^10.0.0",
     "pug": "^2.0.4",
     "rollup": "^1.26.4"
