@@ -20,13 +20,13 @@
   "peerDependencies": {
     "highlight.js": "^9.16.2",
     "markdown-it": "^10.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "svelte": "^3.0.0"
   },
   "devDependencies": {
     "highlight.js": "^9.16.2",
     "markdown-it": "^10.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "rollup": "^1.26.4"
   },
   "scripts": {
