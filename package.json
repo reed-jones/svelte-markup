@@ -19,13 +19,13 @@
   },
   "peerDependencies": {
     "highlight.js": "^9.16.2",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "pug": "^2.0.4",
     "svelte": "^3.0.0"
   },
   "devDependencies": {
     "highlight.js": "^9.16.2",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "pug": "^2.0.4",
     "rollup": "^1.26.4"
   },
